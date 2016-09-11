@@ -1,5 +1,5 @@
 {
-  "name": "future.js",
+  "name": "@nitzan/future.js",
   "version": "1.0.0",
   "description": "A wrapper for the Promise object",
   "main": "index.js",

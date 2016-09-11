@@ -1,0 +1,33 @@
+{
+  "name": "future.js",
+  "version": "1.0.0",
+  "description": "A wrapper for the Promise object",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/bin/*.js --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nitzantomer/future.js.git"
+  },
+  "keywords": [
+    "promise",
+    "async"
+  ],
+  "author": "Nitzan Tomer <nitzan.tomer@gmail.com> (https://github.com/nitzantomer)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nitzantomer/future.js/issues"
+  },
+  "homepage": "https://github.com/nitzantomer/future.js#readme",
+  "devDependencies": {
+    "@types/chai": "^3.4.32",
+    "@types/chai-as-promised": "0.0.28",
+    "@types/mocha": "^2.2.31",
+    "@types/node": "^6.0.38",
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.3.0",
+    "mocha": "^3.0.2",
+    "typescript": "^2.1.0-dev.20160910"
+  }
+}

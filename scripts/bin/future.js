@@ -1,6 +1,9 @@
 "use strict";
 class Future {
     constructor(promise) {
+        if (!(this instanceof Future)) {
+            return new Future(promise);
+        }
         this.promise = promise || new Promise(this.promiseExecutor.bind(this));
     }
     asPromise() {

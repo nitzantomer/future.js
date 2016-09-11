@@ -1,6 +1,6 @@
 {
   "name": "@nitzan/future.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A wrapper for the Promise object",
   "main": "index.js",
   "scripts": {

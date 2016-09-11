@@ -8,6 +8,10 @@ class Future<T> implements PromiseLike<T> {
 	private rejectFunction: (reason?: any) => void;
 
 	constructor(promise?: Promise<T>) {
+		if (!(this instanceof Future)){
+			return new Future(promise);
+		}
+
 		this.promise = promise || new Promise(this.promiseExecutor.bind(this));
 	}
 
